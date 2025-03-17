@@ -10,6 +10,7 @@ public class Personaje {
         // Método para ver si un personaje está vivo o no
         public boolean estaVivo(int salud) {
             return salud > 0;
+
         }
     }
 

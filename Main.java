@@ -17,6 +17,8 @@ public class Main {
             System.out.println("¿Personaje 2 está vivo? (salud = 0): " + estaVivo2);
 
 
+
+
         }
     }
 

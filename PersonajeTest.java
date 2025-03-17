@@ -25,6 +25,8 @@ class PersonajeTest {
             assertEquals(60, personaje.calcularDaño(50, -10));
         }
 
+
+
         @Test
         public void testEstaVivo() {
             Personaje personaje = new Personaje();
