@@ -5,10 +5,10 @@ public class Main {
             Personaje personaje = new Personaje();
 
             // Probar el método calcularDanio
-            int danio1 = personaje.calcularDaño(50, 30);
-            int danio2 = personaje.calcularDaño(30, 50);
-            System.out.println("Daño 1 (50 de ataque, 30 de defensa): " + danio1);
-            System.out.println("Daño 2 (30 de ataque, 50 de defensa): " + danio2);
+            int daño1 = personaje.calcularDaño(50, 30);
+            int daño2 = personaje.calcularDaño(30, 50);
+            System.out.println("Daño 1 (50 de ataque, 30 de defensa): " + daño1);
+            System.out.println("Daño 2 (30 de ataque, 50 de defensa): " + daño2);
 
             // Probar el método estaVivo
             boolean estaVivo1 = personaje.estaVivo(100);
