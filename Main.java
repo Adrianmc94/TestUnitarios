@@ -4,7 +4,7 @@ public class Main {
         public static void main(String[] args) {
             Personaje personaje = new Personaje();
 
-            // Probar el método calcularDanio
+            // Probar el método calcularDaño
             int daño1 = personaje.calcularDaño(50, 30);
             int daño2 = personaje.calcularDaño(30, 50);
             System.out.println("Daño 1 (50 de ataque, 30 de defensa): " + daño1);

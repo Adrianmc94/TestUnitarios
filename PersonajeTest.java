@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class PersonajeTest {
         @Test
-        public void testCalcularDanio() {
+        public void testCalcularDaño() {
             Personaje personaje = new Personaje();
 
             //Ataque mayor que defensa
